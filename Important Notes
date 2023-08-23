@@ -1,0 +1,63 @@
+Verification v/s Validation
+==============================
+Verification
+-------------
+- Verification is checking whether we are building the right product
+- It is done before the development stage.
+- It basically involves requirement & design documentation testing(Static testing)
+- Testing is done by inspection, review & walkthrough
+
+Validation
+----------
+- Validation is checking whether we have built product right
+- It is done after the development stage
+- It involves testing the software(Dynamic testing)
+- Testing done is Unit & Integration(Dev), System(QA) & UAT(Client, QA & others)
+
+
+BLACK BOX V/S WHITE BOX TESTING
+===================================
+White-Box testing
+-----------------------
+- White-Box testing is a activity that basically involves testing the source code(logics & integration) that is written for the application
+- White-Box testing requires the understanding of the code logic & structure
+- Developers will be doing the White-Box testing
+- Unit & Integration i.e. static testing comes under this.
+
+Black-Box testing
+---------------------
+- Black-Box testing is a activity that basically involves testing the software application
+according to it's requirements without looking into the source code from users perspective
+- Black-Box testing requires the knowledge of the software application requirements
+- Black-Box testing will be done by testers
+- System & UAT i.e. dynamic testing comes under this.
+
+
+QA V/S QC
+============
+QA - Quality Assurance
+-------------------------
+- It involves defining the process & ensuring that it is followed so as to prevent defects in software.
+- It is process orinented
+- Management team(dev, testing, support & others team) will be involved in QA.
+
+QC - Quality Control
+-------------------------
+- It involves testing the actual software to detect defects
+- It is product oriented
+- Testers will be involved in the QC
+- QC comes under QA
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+1. GUI(Graphical User Interface) TESTING
+==============================================
+It involves basically testing the
+- Presence of the required web-elements
+- Positions, size, font & colours of different web-elements including text, placeholders etc..
+
+2. FUNCTIONAL TESTING
+========================
+Testing the different functionalities/features present in the application.
+
+Frontend
+----------------
+EX: Different DML operations, login, filter & other application specific functionalities.
+- Testing the properties/functionalities of the web-elements
+Ex: Field validation, drag & drop, links etc..
+
+Backend
+--------------
+- Database testing i.e. DML operations(GUI to DB) i.e. Grey Box testing
+- Functionality testing using server logs
+
+3. USABILITY TESTING
+=========================
+- Testing the user-friendliness of the software i.e. testing how easily the user is able to understand and use the application.
+Ex: Help feature, back button, quick reload, easy navigation between the pages.
+
+4. NON-FUNCTIONAL TESTING
+===========================
+- Once the application functionalities are stable, then Non-Functional testing is done i.e. after doing the functional testing.
+- It includes Performance, Security, Installation, Recovery & Compatibility etc..

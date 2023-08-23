@@ -1,0 +1,37 @@
+Levels of testing with respect to the validation
+
+White box(Done by developers in development setup)
+---------------------------------
+1. Unit testing
+2. Integration
+
+Black-Box(Done by testers in testing steup)
+-------------------------------
+3. System
+4. UAT
+
+1. UNIT TESTING
+================
+- Unit is basically a single module in a software.
+Ex : Login, Inbox, Deleted items, Sent items etc..
+- I can consider it as a single file in project structure
+- So unit testing is basically testing the individual modules of a software i.e features in an individual module
+
+2. INTEGRATION TESTING
+=============================
+- Testing the data flow between 2 or more modules of the software is called as Integration testing
+Ex: Inbox --> Sent Items, Sent Items --> Deleted Items, Deleted Items --> Sent Items , Deleted Items --> Inbox, etc..
+
+3. SYSTEM TESTING
+======================
+- Testing the overall functionalities of the application with respect to the actual requirements.
+- It is done on actual software/application.
+- It requires through knowledge of the requirements
+- It involves different types of testing i.e. Functional, Non Functional etc..
+
+
+4. UAT
+=============
+- Customer/Client will come up with his own testcases with respect to the requirements given by him on the software.
+- Customer/Client will test the application with the help of dev & testing team usually on production setup.
+- After UAT Customer/Client will accept/deny the application.

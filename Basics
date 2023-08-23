@@ -1,0 +1,43 @@
+TYPES OF APPLICATIONS
+==========================
+1. Web application
+---------------------
+- The application that is designed to run on web browser.
+- These require internet
+Ex: amazon.in, facebook.in
+
+2. Desktop application
+-------------------------
+- The application that is designed to specifically run on computers & laptops
+- These may or may not require internet
+Ex: Excel, outlook
+
+3. Mobile application
+-------------------------
+- The application that is designed specially to run on mobile devices like smartphones and tablets.
+- These may or may not require internet
+Ex: WhatsApp, Calculator
+
+Note :
+1. Both Mobile & Desktop applications runs on 'OS'
+
+2. Some application can be of multiple types
+Ex: Facebook i.e. web as well as mobile
+
+SOFTWARE TESTING
+====================
+- It is a activity that is done to find the defects in the software
+- The purpose of this activity is deliver a quality software to the customer
+
+- Software quality
+-------------------------
+A software is of good quality if
+- It meets customer expectations/requirements
+- It is user friendly
+- It has min defects
+- It has good performance
+
+BUG V/S DEFECT V/S FAILURE
+=======================
+- The bug, defect & failure refers to unexpected behavior or flaws in the software with respect to the requirements
+- 'Bug' is the term that is used by dev team, 'Defect' is used by testing team & 'Failure' is term used by customers/clients, while testing in their respective phases

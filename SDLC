@@ -1,0 +1,21 @@
+SDLC - Software Development Life Cycle
+=============================================
+It is process of software development which involves following stages
+1. Requirement collection & analysis - Requirements will be collected from the customers & are analysed & documented i.e. BRD ,SRS & FSD
+2. Design - HLD & LLD will be prepared from req documents
+3. Coding
+4. Testing
+5. Deployment - Releasing the software to the production environment for end-users to access and utilize.
+6. Maintenance - Fixing issues and continuously updating/improving the software.
+
+Companies uses different models to follow the SDLC
+======================================================
+- Waterfall model : Before the completion of one stage of SDLC, next stage cannot begin
+- Spiral
+- V & V(Verification & Validation)
+- Agile
+
+Note
+======
+- Model is basically a way in which SDLC is followed
+- Agile is the model that is widely used than others, since it overcomes the drawbacks of the other models
