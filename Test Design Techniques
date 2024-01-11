@@ -1,0 +1,33 @@
+The test design techniques are used to prepare the test data, here the objective will be to prepare the minimal test data, with which the functionality/component can be tested properly.
+
+Types
+==========
+1. Boundary Value Analysis(BVA)
+===============================
+- Used for number input fields for example age input field.
+- Here each boundary is tested with 3 values.
+
+Example 1 : If 18-35 is range of values accepted by input field, then test data will be
+
+Min(18) - valid
+Min-1(17) - invalid
+Min+1(19) - valid
+Max(35) - valid
+Max-1(34) - valid
+Max+1(36) - invalid
+
+Example 2 : x>50
+49,50 & 51
+
+2.Equivalence Class Partitioning(ECP)
+=========================================
+1-500 ==> 1-100, 101-200, 201-300, 301-400, 401-500
+
+3. Decision Table
+
+4. State Transition
+
+5. Error Guessing
+
+Note : BVA is the one which is generally used in real-time.
+

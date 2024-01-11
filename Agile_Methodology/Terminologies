@@ -1,0 +1,43 @@
+Scrum
+============
+- It is the framework through which the software is built using the agile model principles.
+- Agile is a model/process, whereas scrum is a framework that is defined above.
+- The people involved in the scrum are called as 'scrum team'.
+
+User Story
+===============
+It is a requirement of the module/feature/functionality of the software.
+
+Epic
+=============
+It is a collection of User stories. It is a complete set of requirements of the software.
+
+Product Backlog
+====================
+It is the list of user stories that need to be picked up, upon which the team needs to work.
+
+Sprint
+=============
+It is the time period given to complete the user stories.
+
+Sprint Planning Meeting
+===========================
+It is a meeting in which it is decided which user stories need to be picked up for work, which user stories need to be assigned to whom & what should be the duration of the Sprint.
+
+Scrum meeting/ Stand-Up meeting
+=====================================
+It is a meeting that is conducted on a daily basis where everyone will give updates on three questions to the manager
+a. What did i do yesterday
+b. What is my plan for today
+c. Challenges/Blockers  i am facing
+
+Sprint Review
+===================
+In this meeting, I need to show my work on the assigned user stories & that will be reviewed.
+
+Sprint Retrospective meeting
+===================================
+It is a meeting that is conducted at the end of the sprint, in which sprint analysis will be done.
+a. What went well
+b. What didn't go well
+c.  Actions to be taken for improvement

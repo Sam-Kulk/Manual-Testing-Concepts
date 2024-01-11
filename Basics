@@ -2,32 +2,31 @@ TYPES OF APPLICATIONS
 ==========================
 1. Web application
 ---------------------
-- The application that is designed to run on web browser.
+- The application which runs on web browser.
 - These require internet
 Ex: amazon.in, facebook.in
 
 2. Desktop application
 -------------------------
-- The application that is designed to specifically run on computers & laptops
+- The application that runs on computers/laptops.
 - These may or may not require internet
 Ex: Excel, outlook
 
 3. Mobile application
 -------------------------
-- The application that is designed specially to run on mobile devices like smartphones and tablets.
+- The application that runs on mobile devices like smartphones and tablets.
 - These may or may not require internet
 Ex: WhatsApp, Calculator
 
 Note :
-1. Both Mobile & Desktop applications runs on 'OS'
-
+1. Both Mobile & Desktop applications runs using device 'OS'.
 2. Some application can be of multiple types
-Ex: Facebook i.e. web as well as mobile
+Ex: Whatsapp i.e. web,desktop as well as mobile
 
 SOFTWARE TESTING
 ====================
-- It is a activity that is done to find the defects in the software
-- The purpose of this activity is deliver a quality software to the customer
+- It is a activity that is done to find the defects in the software/application.
+- The purpose of this activity is deliver a good quality software to the client.
 
 - Software quality
 -------------------------
@@ -36,8 +35,23 @@ A software is of good quality if
 - It is user friendly
 - It has min defects
 - It has good performance
+- It should be easy to maintain.
 
-BUG V/S DEFECT V/S FAILURE
-=======================
-- The bug, defect & failure refers to unexpected behavior or flaws in the software with respect to the requirements
-- 'Bug' is the term that is used by dev team, 'Defect' is used by testing team & 'Failure' is term used by customers/clients, while testing in their respective phases
+PROJECT V/S PRODUCT
+==========================
+- A software/application that is developed for a specific client according to his requirements is called as 'Project'.
+- A software/application that is developed for a multiple customers according to the market requirements is called as 'Product'.
+
+BUG V/S DEFECT V/S FAILURE V/S
+================================
+- The bug, defect & failure refers to unexpected behavior or flaws in the software with respect to the requirements.
+- 'Bug' is the term that is used by dev team, 'Defect' is used by testing team & 'Failure' is term used by customers/clients, while testing in their respective phases.
+- Issue is generic word.
+
+Why does Software/Application has bugs
+==========================================
+- Improper requirements from customers
+- Improper understanding of the requirements
+- Miscommunication at different levels
+- Improper coding
+- Software complexity etc..

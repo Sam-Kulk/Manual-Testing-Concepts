@@ -8,14 +8,18 @@ It is process of software development which involves following stages
 5. Deployment - Releasing the software to the production environment for end-users to access and utilize.
 6. Maintenance - Fixing issues and continuously updating/improving the software.
 
+
+SDLC Models
+===========
+Model is basically a way in which SDLC is followed.
+
 Companies uses different models to follow the SDLC
-======================================================
-- Waterfall model : Before the completion of one stage of SDLC, next stage cannot begin
+---------------------------------------------------
+- Waterfall model : Before the completion of one stage of SDLC, next stage cannot begin. Here req. changes are not allowed.
 - Spiral
 - V & V(Verification & Validation)
 - Agile
 
 Note
-======
-- Model is basically a way in which SDLC is followed
-- Agile is the model that is widely used than others, since it overcomes the drawbacks of the other models
+---------
+Agile is the model that is widely used than others, since it overcomes the drawbacks of the other models

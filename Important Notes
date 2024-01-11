@@ -2,18 +2,48 @@ Verification v/s Validation
 ==============================
 Verification
 -------------
-- Verification is checking whether we are building the right product
+- It involves testing the project related documents i.e. requirement(BRD, SRS & FSD) & design(HLD & LLD) documents, it is known as Static testing.
 - It is done before the development stage.
-- It basically involves requirement & design documentation testing(Static testing)
 - Testing is done by inspection, review & walkthrough
+- Verification is basically checking whether we are building the right product
+
+Note:
+---------
+Review : It means to test the correctness & completeness of the document.
 
 Validation
 ----------
-- Validation is checking whether we have built product right
+- It involves testing the developed software, it is known as Dynamic testing.
 - It is done after the development stage
-- It involves testing the software(Dynamic testing)
 - Testing done is Unit & Integration(Dev), System(QA) & UAT(Client, QA & others)
+- Validation is basically checking whether we have built product right.
 
+BRD, SRS & FSD
+=================
+BRD(Business Requirement Document)
+---------------------------------
+- It defines what the company business wants to achieve through the project i.e. it basically defines the high-level business objectives/goals of comapany with respect to project.
+- It primarily includes
+    1. Problem statement and the expected benefits from the project.
+    2. Project objectives & scope
+    3. High-level features/functionalities of software.
+- It is prepared by Business Analyst/Client
+
+SRS(Software Requirements Specification)
+------------------------------------------
+- It basically defines how the software should behave.
+- It primarily includes
+    1. High level description of system functionalities & it's usecases.
+    2. High level Functional & Non-Functional requirements of software.
+- It is prepared by Project Manager & used by Dev & Testing team.
+
+FSD(Functional Specification Document)/FRS(Functional Requirement Specification)
+----------------------------------------------------------------------------------
+- It is basically sub-set of SRS & it basically focuses on the functional aspects of the software.
+- It primarily includes
+    - detailed description of the each & every functionality
+    - detailed description of the data flow between different functionalities.
+- It is prepared by Project Manager & used by Dev & Testing team.
 
 BLACK BOX V/S WHITE BOX TESTING
 ===================================
@@ -22,7 +52,7 @@ White-Box testing
 - White-Box testing is a activity that basically involves testing the source code(logics & integration) that is written for the application
 - White-Box testing requires the understanding of the code logic & structure
 - Developers will be doing the White-Box testing
-- Unit & Integration i.e. static testing comes under this.
+- Unit & Integration testing comes under this.
 
 Black-Box testing
 ---------------------
@@ -30,34 +60,79 @@ Black-Box testing
 according to it's requirements without looking into the source code from users perspective
 - Black-Box testing requires the knowledge of the software application requirements
 - Black-Box testing will be done by testers
-- System & UAT i.e. dynamic testing comes under this.
-
+- System & UAT testing comes under this.
 
 QA V/S QC
 ============
 QA - Quality Assurance
 -------------------------
-- It involves defining the process & ensuring that it is followed so as to prevent defects in software.
-- It is process orinented
+- It involves defining the process & ensuring that it is followed by the team, so as to prevent defects in software.
+- It is process oriented
 - Management team(dev, testing, support & others team) will be involved in QA.
 
 QC - Quality Control
 -------------------------
-- It involves testing the actual software to detect defects
+- It involves testing the actual software to detect defects.
 - It is product oriented
 - Testers will be involved in the QC
-- QC comes under QA
+
+SE V/S QE
+============
+Software Engineer(SE) is one who writes code to develop software.
+
+Quality Engineer(QE) is one who writes the code to test the software i.e. automation tester.
+
+Broken Links
+==============
+A broken link is a link that doest have the target page.
+
+Cookies and Sessions
+===================
+Cookie
+------------
+- It is a temporary file created by browser while browsing webpage.
+- It is added in the browser side itself.
+- It stores some kind of data.
+Ex : Login to gmail, amazon search & ads on other webpages.
+
+Session
+-------
+- It is basically a timeslot created on server side for user's idle time on webpage.
+- The timeslot will get expired after sometime.
+- Mainly found in banking applications.
+- User need to re-login, once the session expires.
+Ex: EPFO session expired
 
 
+Defect Severity V/S Priority
+===============================
+Severity
+----------
+It indicates how much impact does the defect has on end-users usage of application i.e. Critical, Major or Minor
 
+Priority
+-----------
+It indicates the priority for fixing the defect i.e. High, Medium or Low.
+It usually needs to be decided by
 
+High Priority & Low Severity : Mistakes in Customer Logo & Name.
+Low Priority & High Severity :
 
+Escape Defect
+=================
+The defect that is missed by testing team & found by customers/others.
 
+Principles of testing
+========================
+- Start early i.e. when we get the requirements not after build is given i.e. we should start atleast authoring phase.
+- Keep updating the test cases to find the new defects. Pesticide Paradox
+- Highly impossible to give bug free software to customer.
 
+Release notes
+==============
+- Release notes for a build basically contains the description for the new changes & fixes provided in the build.
+- It contains steps to install the build.
 
-
-
-
-
-
-
+Imp points
+==================
+- Whenever we get a new build : smoke ,retest, sanity & then regression testing is done.

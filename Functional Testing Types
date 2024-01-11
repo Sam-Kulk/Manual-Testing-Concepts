@@ -1,0 +1,68 @@
+Regression Testing
+===================
+It involves testing the modified build, to make sure that the existing functionalities are not impacted because of the changes(adding/editing/deleting/bug fixing) done in the build.
+
+Types
+----------
+1. Regional Regression
+---------------------------
+- It involves testing the changes done in the module along with the impacted areas of other modules, but not the complete build.
+- Impact analysis meeting is done(With Dev team) to identify the impacting areas of the changes.
+- It is done when changes done in a module is impacting the other modules.
+
+2. Full Regression
+------------------------
+- It involves testing the changes done in the build along with entire build again.
+- It is done when changes are done in many modules.
+- Here since the changes are done in multiple modules, so instead of identifying the impacting areas, entire build is tested.
+
+Re-Testing
+==================
+- It involves testing the bug fix by executing the associated test case(s), to ensure that the bugs/defects reported in previous build are fixed in the new build.
+- The bug is closed if it is really fixed else it is re-opened.
+
+Smoke Testing
+===================
+- Whenever we get a new build from the development team the basic/key functionalities of the application are working fine or not with basic testcases It is Smoke testing.
+- For example installation, login, user creation etc..
+- It is done to ensure that the new build received is testable/stable or not.
+- If the Smoke testing fails, then the build is rejected.
+
+Sanity Testing
+==================
+- Whenever a change/fix is done in any functionality, then that functionality is tested in depth(with all the possible testcases), it is called as Sanity testing.
+- For example login fix, then whole login functionality is tested in depth.
+- It is done to ensure that change/fix has not affected the functionality.
+- Regression and Sanity are different, Sanity focuses on a single functionality, whereas the Regression focuses on the other impacting functionalities as well.
+
+Exploratory Testing
+=====================
+- Whenever there is no proper documentation made for application requirements, but the application is ready, in that case the application can be tested by following the exploratory testing approach.
+- Here the tester based on his past experience will explore the application by himself, understand it , document test scenarios and cases and test accordingly.
+- Drawbacks
+    1. Time consuming
+    2. Tester might not be able to understand & test the features properly, hence he may miss many bugs. He may understand bug as feature and vice versa.
+
+Adhoc Testing
+==============
+- It involves testing the application randomly without referring any testcases.
+- The tester performing the Adhoc testing needs to have a good knowledge of the application.
+- It is also called as informal testing, since it is not done in a formal way.
+
+Positive Testing
+=================
+- Testing the application feature/component with valid inputs and valid/positive scenarios it is called as Positive testing.
+- The valid inputs/scenarios needs to be accepted by application, that is tested here.
+- For example field which accepts only numbers, then testing with only positive numbers.
+
+Negative Testing
+=================
+- Testing the application feature/component with invalid inputs and invalid/negative scenarios it is called as Negative testing.
+- The invalid inputs/scenarios should not be accepted, they need to be handled with error messages/popups by developer, that is tested in the negative testing.
+- For example field which accepts only numbers, then testing with negative numbers, alphabets & special characters.
+
+End-To-End Testing
+========================
+- Testing the whole application as a single functionality from end-to-end.
+- It involves the data flow among several modules of the application.
+- For example : EIR flow, Whatsapp call, SMS etc..

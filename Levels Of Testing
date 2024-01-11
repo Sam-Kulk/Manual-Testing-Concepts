@@ -1,12 +1,12 @@
 Levels of testing with respect to the validation
 
 White box(Done by developers in development setup)
----------------------------------
+----------------------------------------------------
 1. Unit testing
 2. Integration
 
-Black-Box(Done by testers in testing steup)
--------------------------------
+Black-Box(Done by testers in testing setup)
+----------------------------------------------
 3. System
 4. UAT
 
@@ -15,23 +15,24 @@ Black-Box(Done by testers in testing steup)
 - Unit is basically a single module in a software.
 Ex : Login, Inbox, Deleted items, Sent items etc..
 - I can consider it as a single file in project structure
-- So unit testing is basically testing the individual modules of a software i.e features in an individual module
+- So unit testing is basically testing the individual modules of a software with different inputs.
 
 2. INTEGRATION TESTING
 =============================
 - Testing the data flow between 2 or more modules of the software is called as Integration testing
-Ex: Inbox --> Sent Items, Sent Items --> Deleted Items, Deleted Items --> Sent Items , Deleted Items --> Inbox, etc..
+Ex: Login --> Inbox --> Sent Items, Sent Items --> Deleted Items, Deleted Items --> Sent Items , Deleted Items --> Inbox, etc..
+
+Note :
+1. These scenarios are tested by testers from UI as a part of system testing
+2. Here two approaches are followed top-down & bottom-up i.e. top-down - parent to child module data-flow & vice versa.
 
 3. SYSTEM TESTING
 ======================
-- Testing the overall functionalities of the application with respect to the actual requirements.
-- It is done on actual software/application.
-- It requires through knowledge of the requirements
-- It involves different types of testing i.e. Functional, Non Functional etc..
+- Testing the overall application with respect to the actual requirements.
+- It involves different types of testing both the Functional & Non Functional aspects of the application.
 
-
-4. UAT
-=============
+4. UAT(User Acceptance Testing)
+===================================
 - Customer/Client will come up with his own testcases with respect to the requirements given by him on the software.
-- Customer/Client will test the application with the help of dev & testing team usually on production setup.
+- Customer/Client will test the application with the help of dev & testing team.
 - After UAT Customer/Client will accept/deny the application.

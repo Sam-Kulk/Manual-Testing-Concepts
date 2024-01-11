@@ -1,0 +1,34 @@
+- By default, Jira will not support Test Management, but there bug tracking can be done.
+-  To do Test Management plugins such as X-Ray has to be added to the Jira.
+- Zephyr is another example of the Plugin for Test Management.
+- Both plugins are licensed.
+
+Considering X-Ray as Plugin added to the Jira tool
+The X-Ray plugin provides the following issue types for the Testcase Management
+1. Test
+2. Test Set
+3. Test Execution
+4. Test Plan
+5. Precondition
+
+1. Test
+This is nothing but a test case
+
+Note: (Apps -- X-Ray -- Test Case Importer)
+- Multiple tests can be added at once, by importing a CSV file, by using Test Case Importer feature.
+
+2. Test-Set
+Collection of the tests.
+
+3. Test Execution
+- Collection of the tests for execution. This basically involves all the Tests in a Test set.
+- This issue type is used for the execution of the test cases.
+
+Note:  Bug issue type should be used to report bugs.
+
+4. Test Plan
+It is a collection of Test Executions.
+
+Note
+----------
+Reports provided by X-Ray like Traceability, Test Plan Metrics, etc.. can be used for analysis.

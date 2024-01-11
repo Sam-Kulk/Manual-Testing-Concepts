@@ -1,0 +1,17 @@
+The agile model is an iterative & incremental approach of developing software.
+- Iterative -  The same process is repeated again & again i.e Requirement collection, Design, coding & Testing.
+- Incremental - After every iteration, new modules will be added.
+
+Principles
+================
+Customer satisfaction is of the highest priority, the customer no need to wait for a long time for software, and a piece of software will be delivered in an incremental manner.
+Requirement changes are accepted in between the software development
+
+Advantages
+=================
+Requirement changes can be accommodated in the middle of the development.
+Releases will be fast.
+
+Disadvantages
+======================
+Less focus on design & documentation since we need to deliver the software fastly.

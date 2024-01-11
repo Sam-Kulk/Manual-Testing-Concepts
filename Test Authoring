@@ -1,0 +1,41 @@
+Use-Case V/S Test Scenario V/S Test Case
+==========================================
+Use-Case
+-----------
+- It basically describes the requirement.
+- It is generally prepared by BA(Business Analyst)
+
+Test Scenario
+---------------
+- It is the possible scenario/area to be tested for the requirement i.e.it basically describes what to test.
+- There can be 'n' number of scenarios for the requirement.
+- It is prepared by Test Engineers.
+
+Test Case
+-------------
+- It has the steps & preconditions that needs to be followed to test/execute the test scenario & also has the expected result of the test scenario, it basically describes how to test.
+- It is prepared by Test Engineers.
+
+Test Set/Suite V/S Test Plan
+=============================
+Test set/Suite
+---------------
+It is the group of test cases of same category.
+For ex : Smoke Cases
+
+Test Plan
+------------
+It is the group of the several Test Suites along with some other required details like timelines, tools used, scope etc.
+
+RTM(Requirement Tracebility Matrix)
+======================================
+It is the mapping of requirements against the test cases covered.
+
+Example :
+Login  TC1, TC2
+User Creation TC3, TC4
+
+Test Bed
+--------
+- It is an environment/platform upon which the software will be tested by testing team.
+- It will be replica of the real-time/production environment.

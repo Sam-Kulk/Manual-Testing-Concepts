@@ -1,0 +1,18 @@
+1. Project Creation(EIR)
+2. Users addition
+3. Backlog ---Version Creation(This is nothing but a Project Version, example - EIR_1.0)
+
+Main flow
+4. Backlog ------- Epic(s)(Ex - List Management)
+5. Add Stories to the Epic
+	- Create----Use Epic Link(Ex - List Manager, List Elements)
+6. Add Sub-Task(s) in the story
+	- Open Story ---- Click on Create Sub-Task
+7. Starting Sprint
+	- Create Sprint - Backlog ----- Click on Create Sprint
+	- Add User stories - Drag & Drop the user stories
+	- Click on Start Sprint
+	- Provide the duration & other info & Click on Start
+8. Complete Sprint
+
+Note: Reports section will be used for different types of analysis.

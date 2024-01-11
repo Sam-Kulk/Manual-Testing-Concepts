@@ -1,28 +1,39 @@
 1. GUI(Graphical User Interface) TESTING
 ==============================================
 It involves basically testing the
-- Presence of the required web-elements
-- Positions, size, font & colours of different web-elements including text, placeholders etc..
+- Presence of the required web-elements.
+- Positions, size, font & colours of different web-elements
+- It also includes testing the correctness of the different texts on the web-elements i.e. placeholders, dropdown options, text on buttons etc..
 
-2. FUNCTIONAL TESTING
+2. USABILITY TESTING
+=========================
+Testing the user-friendliness of the software i.e. testing how easily the user is able to understand and use the application.
+
+Application should have below to be user friendly.
+- easy navigation between the pages
+- smooth user interactions
+- minimal inputs from user
+- help menu
+- back button etc..
+
+3. FUNCTIONAL TESTING
 ========================
 Testing the different functionalities/features present in the application.
+Functional testing is done is two ends.
 
 Frontend
 ----------------
-EX: Different DML operations, login, filter & other application specific functionalities.
-- Testing the properties/functionalities of the web-elements
-Ex: Field validation, drag & drop, links etc..
+- CRED operations(Read is done by filter and search)
+- Field Validation
+- Web-Elements properties/attributes testing i.e. enabled/disabled, selected/unselected etc..
+- Login & other application specific functionalities(for example calculate percentage based on marks provided).
+- It includes testing the error handling correctness as part of negative testing.
+- Links
 
 Backend
 --------------
-- Database testing i.e. DML operations(GUI to DB) i.e. Grey Box testing
+- Database testing i.e. Grey Box testing which involves testing the DML(Create, Update and Delete) operations, it is done to check whether the proper communication is happening or not between GUI and Db. It is done in two-way approach.
 - Functionality testing using server logs
-
-3. USABILITY TESTING
-=========================
-- Testing the user-friendliness of the software i.e. testing how easily the user is able to understand and use the application.
-Ex: Help feature, back button, quick reload, easy navigation between the pages.
 
 4. NON-FUNCTIONAL TESTING
 ===========================
