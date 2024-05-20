@@ -1,0 +1,8 @@
+The various stages through which the defect/bug has to pass through during it's life cycle is called as DLC.
+
+The stages involved are
+- Defect Identification
+- Raising of the defect & assignment to relevant person, here the defect will be in TO DO state.
+- Defect analysis by developer, where he can accept/reject the defect i.e. IN_PROGRESS/REJECTED.
+- Defect fixiation & status will be 'Verifycation'
+- Retesting of defect, where TE retests the defect & if it is fixed, then it will be closed i.e. DONE & else it will be reopened i.e. TO DO.

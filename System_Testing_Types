@@ -10,11 +10,11 @@ It involves basically testing the
 Testing the user-friendliness of the software i.e. testing how easily the user is able to understand and use the application.
 
 Application should have below to be user friendly.
-- easy navigation between the pages
-- smooth user interactions
-- minimal inputs from user
+- applications should be easy to understand.
 - help menu
-- back button etc..
+- smooth user interactions/actions
+- minimal inputs from user
+- easy & clear navigation between the pages
 
 3. FUNCTIONAL TESTING
 ========================
@@ -32,7 +32,7 @@ Frontend
 
 Backend
 --------------
-- Database testing i.e. Grey Box testing which involves testing the DML(Create, Update and Delete) operations, it is done to check whether the proper communication is happening or not between GUI and Db. It is done in two-way approach.
+- Database testing i.e. Grey Box testing which involves performing the DML(Create, Update and Delete) operations, it is done to check whether the proper communication is happening or not between GUI and Db. opeations are performed on db & checked in GUI.
 - Functionality testing using server logs
 
 4. NON-FUNCTIONAL TESTING

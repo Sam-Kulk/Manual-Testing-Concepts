@@ -18,7 +18,7 @@ Note: (Apps -- X-Ray -- Test Case Importer)
 - Multiple tests can be added at once, by importing a CSV file, by using Test Case Importer feature.
 
 2. Test-Set
-Collection of the tests.
+Collection of the tests of same category.
 
 3. Test Execution
 - Collection of the tests for execution. This basically involves all the Tests in a Test set.
@@ -27,7 +27,9 @@ Collection of the tests.
 Note:  Bug issue type should be used to report bugs.
 
 4. Test Plan
-It is a collection of Test Executions.
+- It is a collection of Test Executions.
+- this will be used for report generation.
+
 
 Note
 ----------

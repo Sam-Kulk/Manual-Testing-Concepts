@@ -2,23 +2,20 @@ STLC(Software Testing Life Cycle)
 ====================================
 - It is a sub-set of SDLC
 - The SDLC deals with the development & delivery of entire software, whereas the STLC deals with only testing the software.
+- It is an end-to-end process of software testing.
 
 Involves the following stages:
-1. Requirement Analysis
------------------------
-From SRS & FSD.
+1. Requirement Analysis & Understanding
+-----------------------------------------
+From SRS & FSD the requirements are analysed.
 
 2. Test Planning
 -------------------------
-Here we will decide
-a. What to test
-b. How to test
-c. When to test
-d. Timeline commitments for the testing completion.
+Here we will decide what all we are considering under testing scope & will be proposing a timeline for the testing completion.
 
 3. Test Case Authoring
 --------------------------
-Preparing test scenarios & test cases & review.
+Preparing test scenarios & test cases & review &  finalize.
 
 4. Environment Set-Up
 -----------------------
@@ -32,4 +29,4 @@ b. Reporting the bug/defects for the failed cases.
 
 6. Test Closure
 --------------------
-Test execution report(PASS, FAIL & Bugs reported) is prepared & published to relevant people & testing is closed.
+Test execution report(PASS, FAIL & Bugs reported) is prepared & published to relevant people & testing phase is closed.

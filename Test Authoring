@@ -3,7 +3,10 @@ Use-Case V/S Test Scenario V/S Test Case
 Use-Case
 -----------
 - It basically describes the requirement.
-- It is generally prepared by BA(Business Analyst)
+- It is generally prepared by BA(Business Analyst) after discussing with customers/client.
+Ex : Call feature in Whatsapp, Login feature
+
+Note : On a high level requirement is nothing but usecase.
 
 Test Scenario
 ---------------
@@ -21,11 +24,11 @@ Test Set/Suite V/S Test Plan
 Test set/Suite
 ---------------
 It is the group of test cases of same category.
-For ex : Smoke Cases
+For ex : Smoke Cases, Login Cases
 
 Test Plan
 ------------
-It is the group of the several Test Suites along with some other required details like timelines, tools used, scope etc.
+It is the group of the several Test Suites along with some other required details like scope, timelines, tools to be used etc.
 
 RTM(Requirement Tracebility Matrix)
 ======================================
@@ -37,5 +40,5 @@ User Creation TC3, TC4
 
 Test Bed
 --------
-- It is an environment/platform upon which the software will be tested by testing team.
-- It will be replica of the real-time/production environment.
+- It is an environment upon which the software will be tested by testing team.
+- It will be like a replica of the real-time/production environment.

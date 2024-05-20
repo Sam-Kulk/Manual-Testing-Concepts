@@ -4,8 +4,8 @@ Types
 ==========
 1. Boundary Value Analysis(BVA)
 ===============================
-- Used for number input fields for example age input field.
-- Here each boundary is tested with 3 values.
+- Used for preparing the test data for input fields accepting a range of data.
+- Here each boundary of the range is tested with 3 values.
 
 Example 1 : If 18-35 is range of values accepted by input field, then test data will be
 
@@ -23,11 +23,12 @@ Example 2 : x>50
 =========================================
 1-500 ==> 1-100, 101-200, 201-300, 301-400, 401-500
 
-3. Decision Table
+3. Error Guessing
+=======================
+In this tester based on his experience & intuition guesses or identifyies the areas or scenarios in which software may have defects, write test cases accordingly & test
 
-4. State Transition
+4. Decision Table
 
-5. Error Guessing
+5. State Transition
 
-Note : BVA is the one which is generally used in real-time.
-
+Note : BVA & Error Guessing are the one which are generally used in real-time.

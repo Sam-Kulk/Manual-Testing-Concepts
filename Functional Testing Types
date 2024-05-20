@@ -23,7 +23,7 @@ Re-Testing
 
 Smoke Testing
 ===================
-- Whenever we get a new build from the development team the basic/key functionalities of the application are working fine or not with basic testcases It is Smoke testing.
+- Whenever we get a new build from the development team the basic/key functionalities of the application are tested whether they are working fine or not with basic testcases It is Smoke testing.
 - For example installation, login, user creation etc..
 - It is done to ensure that the new build received is testable/stable or not.
 - If the Smoke testing fails, then the build is rejected.
@@ -53,7 +53,7 @@ Positive Testing
 =================
 - Testing the application feature/component with valid inputs and valid/positive scenarios it is called as Positive testing.
 - The valid inputs/scenarios needs to be accepted by application, that is tested here.
-- For example field which accepts only numbers, then testing with only positive numbers.
+- For example field which accepts only +ve numbers, then testing with only positive numbers.
 
 Negative Testing
 =================

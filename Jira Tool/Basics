@@ -1,3 +1,5 @@
-- Jira is an Agile project management tool developed by Atlassian company.
-- The Jira tool is licensed
-- Jira by default provides Story, Epic, Task, Sub Task & Bug issue types.
+- Jira is an Agile project management tool
+- It is developed by Atlassian company.
+- The Jira tool is licensed.
+- Everything in Jira is an issue.
+- Jira by default provides Story, Epic, Task, Sub Task, Bug & Improvement issue types.

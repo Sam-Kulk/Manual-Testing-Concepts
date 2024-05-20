@@ -2,10 +2,11 @@ Verification v/s Validation
 ==============================
 Verification
 -------------
-- It involves testing the project related documents i.e. requirement(BRD, SRS & FSD) & design(HLD & LLD) documents, it is known as Static testing.
+- It involves testing the project related documents i.e. requirement(BRD, SRS & FSD) & design(HLD & LLD) documents.
 - It is done before the development stage.
 - Testing is done by inspection, review & walkthrough
-- Verification is basically checking whether we are building the right product
+- Verification is done to ensure that we are building the right product.
+- It is known as static testing.
 
 Note:
 ---------
@@ -13,36 +14,37 @@ Review : It means to test the correctness & completeness of the document.
 
 Validation
 ----------
-- It involves testing the developed software, it is known as Dynamic testing.
+- It involves testing the application developed.
 - It is done after the development stage
-- Testing done is Unit & Integration(Dev), System(QA) & UAT(Client, QA & others)
-- Validation is basically checking whether we have built product right.
+- Testing done is in the form of Unit & Integration(Dev), System(QA) & UAT(Client, QA & others)
+- Validation is done to check whether we have built product right.
+- It is known as Dynamic testing.
 
 BRD, SRS & FSD
 =================
 BRD(Business Requirement Document)
 ---------------------------------
-- It defines what the company business wants to achieve through the project i.e. it basically defines the high-level business objectives/goals of comapany with respect to project.
+- It basically defines what the company's business wants to achieve through the project i.e. it basically defines the high-level business objectives/goals of company with respect to project.
 - It primarily includes
     1. Problem statement and the expected benefits from the project.
     2. Project objectives & scope
-    3. High-level features/functionalities of software.
+    3. High-level features/functionalities of application.
 - It is prepared by Business Analyst/Client
 
 SRS(Software Requirements Specification)
 ------------------------------------------
 - It basically defines how the software should behave.
 - It primarily includes
-    1. High level description of system functionalities & it's usecases.
-    2. High level Functional & Non-Functional requirements of software.
+    1. High level description of application functionalities & it's usecases.
+    2. High level Functional & Non-Functional requirements of application.
 - It is prepared by Project Manager & used by Dev & Testing team.
 
 FSD(Functional Specification Document)/FRS(Functional Requirement Specification)
 ----------------------------------------------------------------------------------
-- It is basically sub-set of SRS & it basically focuses on the functional aspects of the software.
+- It is basically sub-set of SRS & it basically focuses on the functional aspects of the application in detail.
 - It primarily includes
     - detailed description of the each & every functionality
-    - detailed description of the data flow between different functionalities.
+    - detailed description of the data flow between different modules of the application.
 - It is prepared by Project Manager & used by Dev & Testing team.
 
 BLACK BOX V/S WHITE BOX TESTING
@@ -58,7 +60,7 @@ Black-Box testing
 ---------------------
 - Black-Box testing is a activity that basically involves testing the software application
 according to it's requirements without looking into the source code from users perspective
-- Black-Box testing requires the knowledge of the software application requirements
+- Black-Box testing requires the knowledge of the software application requirements.
 - Black-Box testing will be done by testers
 - System & UAT testing comes under this.
 
@@ -66,13 +68,13 @@ QA V/S QC
 ============
 QA - Quality Assurance
 -------------------------
-- It involves defining the process & ensuring that it is followed by the team, so as to prevent defects in software.
+- It involves defining the std process & ensuring that it is followed by the team, so as to prevent defects in software.
 - It is process oriented
 - Management team(dev, testing, support & others team) will be involved in QA.
 
 QC - Quality Control
 -------------------------
-- It involves testing the actual software to detect defects.
+- It involves testing the actual development as per the requirements to find defects.
 - It is product oriented
 - Testers will be involved in the QC
 
@@ -80,7 +82,7 @@ SE V/S QE
 ============
 Software Engineer(SE) is one who writes code to develop software.
 
-Quality Engineer(QE) is one who writes the code to test the software i.e. automation tester.
+neer(QE) is one who writes the code/script to test the software i.e. automation tester.
 
 Broken Links
 ==============
@@ -92,12 +94,12 @@ Cookie
 ------------
 - It is a temporary file created by browser while browsing webpage.
 - It is added in the browser side itself.
-- It stores some kind of data.
+- It stores some kind of data i.e login credentials, search history, active time etc.
 Ex : Login to gmail, amazon search & ads on other webpages.
 
 Session
 -------
-- It is basically a timeslot created on server side for user's idle time on webpage.
+- It is basically a timeslot created on server side for max user's idle time on webpage.
 - The timeslot will get expired after sometime.
 - Mainly found in banking applications.
 - User need to re-login, once the session expires.
@@ -108,15 +110,15 @@ Defect Severity V/S Priority
 ===============================
 Severity
 ----------
-It indicates how much impact does the defect has on end-users usage of application i.e. Critical, Major or Minor
+It indicates how much impact does the defect has on end-users usage of the application's core/basic functionality i.e. Critical, Major or Minor
 
 Priority
 -----------
 It indicates the priority for fixing the defect i.e. High, Medium or Low.
-It usually needs to be decided by
+It usually needs to be decided by dev/QA.
 
-High Priority & Low Severity : Mistakes in Customer Logo & Name.
-Low Priority & High Severity :
+Low Severity & High priority : Messaging app carshes when user tries to send some specific uncommly used emoji, payment website crashes when user input an invalid A/C number
+High Severity & Low prioirty : Spelling mistakes, Misallignment of some elenemts on web page, indicates poor ui-ux design of software.
 
 Escape Defect
 =================
@@ -130,9 +132,25 @@ Principles of testing
 
 Release notes
 ==============
-- Release notes for a build basically contains the description for the new changes & fixes provided in the build.
-- It contains steps to install the build.
+- Release notes for a build basically contains the information about the new changes & fixes provided in the build.
+- It contains steps to install the build & information of dependiences required.
+
+HLD & LLD
+==============
+HLD(High Level Design)
+-----------------------
+- It will show the high level architecture of the software system i.e. it will show the various components & modules of the software & their interactions on high level.
+- It is nothing but the overview of the software's architecture.
+- It is prepared by PM.
+
+LLD
+----
+- It will show the detailed architecture of the software system i.e. it will show the various components & modules of the software & their interactions in detailed way.
+- Developers will use LLD for software development.
+- It is prepared by PM.
+
+Note : Both LLD & HLD will be a diagrams
 
 Imp points
 ==================
-- Whenever we get a new build : smoke ,retest, sanity & then regression testing is done.
+- Whenever we get a new build : smoke ,retest of bugs raised in previous build, sanity to check the impact of the bug fixes & changes & then regression testing is done.
